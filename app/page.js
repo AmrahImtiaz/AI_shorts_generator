@@ -1,8 +1,12 @@
 import { Button } from "@/components/ui/button";
+import { UserButton } from '@clerk/nextjs';
+
 
 export default function Home() {
   return (<div>
     <h2>Hello this is a heading</h2>
-    <Button variant="destructive" >Subscribe</Button>
-  </div>  );
+    <Button>Subscribe</Button>
+    <UserButton/>
+  </div>  
+  );
 }
