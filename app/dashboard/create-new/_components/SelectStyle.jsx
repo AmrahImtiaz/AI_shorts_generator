@@ -46,7 +46,7 @@ function SelectStyle({onUserSelect}) {
     <p className='text-gray-500'> Select your video style </p>
     <div className='grid grid-cols-2 md:grip-col-3 lg:grid-cols-4 xl:grid ' >
         {styleOptions.map((item, index) => (
-        <div className={`relative hover:scale-105 transition-all cursor-pointer
+        <div key={index} className={`relative hover:scale-105 transition-all cursor-pointer
         ${selectedOption==item.name && 'border-4 border-primary rounded-lg'}`}>
 
           <div className="p-5" >

@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(auth)/sign-up/[[...sign-up]]/page.jsx", "app/page.js", "tailwind.config.js", "middleware.js", "lib/utils.js", "components/ui/button.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(auth)/sign-up/[[...sign-up]]/page.jsx", "app/page.js", "tailwind.config.js", "middleware.js", "lib/utils.js", "components/ui/button.jsx", "configs/AiModel.js"],
   "exclude": ["node_modules"]
 }
